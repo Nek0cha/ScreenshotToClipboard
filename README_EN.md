@@ -1,4 +1,4 @@
-[日本語](https://github.com/Nek0cha/ScreenshotToClipboard/blob/main/README.md "Japanese README") [English]
+[日本語](https://github.com/Nek0cha/ScreenshotToClipboard/blob/main/README.md "Japanese README")
 
 # ScreenshotToClipboard
 
