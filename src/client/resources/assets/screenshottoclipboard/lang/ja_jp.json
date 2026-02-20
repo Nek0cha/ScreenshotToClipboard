@@ -1,0 +1,10 @@
+{
+  "screenshottoclipboard.message.copied": "§a✔ スクリーンショットをクリップボードにコピーしました！",
+  "screenshottoclipboard.message.failed": "§c✘ クリップボードへのコピーに失敗しました。",
+
+  "screenshottoclipboard.config.title": "ScreenshotToClipboard 設定",
+  "screenshottoclipboard.config.category.general": "一般",
+  "screenshottoclipboard.config.show_message": "通知メッセージを表示する",
+  "screenshottoclipboard.config.show_message.tooltip": "スクリーンショットがクリップボードにコピーされたときにチャットメッセージを表示します。"
+}
+

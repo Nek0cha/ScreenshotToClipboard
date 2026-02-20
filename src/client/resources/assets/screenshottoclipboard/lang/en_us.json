@@ -1,0 +1,10 @@
+{
+  "screenshottoclipboard.message.copied": "§a✔ Screenshot copied to clipboard!",
+  "screenshottoclipboard.message.failed": "§c✘ Failed to copy screenshot to clipboard.",
+
+  "screenshottoclipboard.config.title": "ScreenshotToClipboard Settings",
+  "screenshottoclipboard.config.category.general": "General",
+  "screenshottoclipboard.config.show_message": "Show notification message",
+  "screenshottoclipboard.config.show_message.tooltip": "Show a chat message when a screenshot is copied to the clipboard."
+}
+

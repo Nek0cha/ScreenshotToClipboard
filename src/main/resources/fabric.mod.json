@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "screenshottoclipboard",
+  "version": "${version}",
+  "name": "ScreenshotToClipboard",
+  "description": "Automatically copies screenshots to the clipboard. Works on Windows, macOS and Linux.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/screenshottoclipboard/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "io.github.nek0cha.screenshottoclipboard.client.ScreenshottoclipboardDataGenerator"
+    ],
+    "client": [
+      "io.github.nek0cha.screenshottoclipboard.client.ScreenshottoclipboardClient"
+    ],
+    "main": [
+      "io.github.nek0cha.screenshottoclipboard.Screenshottoclipboard"
+    ],
+    "modmenu": [
+      "io.github.nek0cha.screenshottoclipboard.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "screenshottoclipboard.mixins.json",
+    {
+      "config": "screenshottoclipboard.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  }
+}
