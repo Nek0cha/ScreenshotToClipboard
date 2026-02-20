@@ -9,6 +9,11 @@ Works on Windows / macOS / Linux.
 
 ---
 
+## Download
+You can download the latest release from [Modrinth](https://modrinth.com/mod/sstoclip).
+
+---
+
 ## Features
 
 * Automatically copies screenshots to the clipboard just by taking them
